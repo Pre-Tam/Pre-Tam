@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RealFeel</title>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <meta name="theme-color" content="#0b0f14">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="container">
+
+<section class="hero">
+  <div>
+    <span class="tag">Static site · Dynamic feel</span>
+    <h1>Multipage website that feels live</h1>
+    <p>Built with HTML, CSS, and JavaScript. Data via JSON. Partials, soft navigation, caching, and offline support.</p>
+    <div class="form-actions">
+      <a data-link href="/products.html" class="btn primary">Explore products</a>
+      <a data-link href="/about.html" class="btn">How it works</a>
+    </div>
+  </div>
+  <div class="card">
+    <p class="notice">Tip: Use <span class="kbd">Shift</span> + <span class="kbd">R</span> to hard reload if your host enforces aggressive caching.</p>
+    <ul>
+      <li>Shared header/footer via partials</li>
+      <li>AJAX “soft nav” between pages</li>
+      <li>JSON-driven content</li>
+      <li>Service worker caching</li>
+    </ul>
+  </div>
+</section>
+
+<section class="grid" style="grid-template-columns:1fr 1fr;gap:24px">
+  <article class="card">
+    <h2>Zero backend</h2>
+    <p>Static hosting only. Use third-party services for forms and analytics.</p>
+  </article>
+  <article class="card">
+    <h2>Feels integrated</h2>
+    <p>We cache data and use partial reloads so navigation feels seamless.</p>
+  </article>
+</section>
+
+  </main>
+  <div id="site-footer"></div>
+  <script src="/assets/js/utils.js" defer></script>
+</body>
+</html>
