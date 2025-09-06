@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RealFeel</title>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <meta name="theme-color" content="#0b0f14">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="container">
+
+<section class="card">
+  <h1>Contact</h1>
+  <p>Static form demo using a third-party endpoint. Replace the <code>action</code> attribute with your Formspree or Netlify Forms URL.</p>
+  <form id="contact-form" action="" method="POST" novalidate>
+    <div class="form-row">
+      <div>
+        <label>Name</label>
+        <input name="name" type="text" required>
+      </div>
+      <div>
+        <label>Email</label>
+        <input name="email" type="email" required>
+      </div>
+    </div>
+    <div>
+      <label>Message</label>
+      <textarea name="message" rows="5" required></textarea>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Send</button>
+      <span class="notice">No backend. Uses fetch to POST to your service.</span>
+    </div>
+  </form>
+</section>
+
+  </main>
+  <div id="site-footer"></div>
+  <script src="/assets/js/utils.js" defer></script>
+</body>
+</html>
